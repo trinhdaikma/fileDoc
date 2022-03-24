@@ -1,0 +1,18 @@
+1. redux là 1 thư viện giúp mình quản lý state và state có hể dự đoán đc
+2. Store:  
+View: giao diện
+action:
+
+đàu tiên store có giá trị gì đó gửi lên view.
+viêw làm gì đó thì tạo 1 action(là 1 js object mô tả mình muốn làm cái gì vs store này)
+sau đó gửi lên store 
+strore làm gì kệ nó. 
+nó sẽ thay đổi cập nhật bên trong
+và sau đó trả về state ms khi có ststae mới nó sẽ thông báo trên ông view đẻe cập nhật lại giao diện
+
+
+trong strore: miđlewware
+dispatcher quản lý midle ware dùng để gọi api ....
+
+dispatch xong sẽ đẩy xuống reducer(là 1 funtion): có 2 tham số truyền vào là state hiện tại và action đc gửi lên có đc action và state hiện tại ông biến đổi gì gì đó ra sattet mới
+

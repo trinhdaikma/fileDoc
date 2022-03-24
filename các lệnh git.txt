@@ -1,0 +1,39 @@
+1. git branch: //Kiểm tra có bao nhiêu nhánh
+2. git branch tên_nhánh: //tạo nhánh mới
+3. git checkout tên_nhánh: // chuyển qua nhánh làm việc
+4. git add . : //thêm tất cả các file mới đc sửa or tạo trên nhánh
+5. git commit -m "nội dung commit" : //chú thích
+6. git push -u origin tên_nhánh : //đẩy code lên nhánh
+7. git checkout master: //chuyển nhánh master
+8. git merge tên_nhánh: //gộp nhánh master với tên nhánh.
+9. git branch -d tên_nhánh: //Xoá nhánh
+
+đối với lỗi conflict:
+10. git status: // kiểm tra  trạng thái
+//muốn sửa tất cả thì chọn "accept both" tiếp tục thực hiện
+- git status
+-git add .
+-git commit -m "noi dung"
+- git log --online
+
+git push --force
+git
+
+$ git clone -b new_branch_nghia https://github.com/duchtcssoft/Timekeeping.git // clone nhánh khác về máy
+
+
+git pull origin main
+fix conflig
+git add 
+git commit
+git push origin tên_nhánh (nếu mới tạo nhánh)
+git push (nếu đã có nhánh)
+vào github merge
+
+
+checkout ra nhánh mới stored/....
+git push để sync local với remote
+lên git xem đang ahead bao nhiêu commit so với main
+git reset --mixed HEAD~5 // gia su ahead 5 commit
+Vào xem thay đổi xóa thay đổi k can thiết
+commit và git push --force
